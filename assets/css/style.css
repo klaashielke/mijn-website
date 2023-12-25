@@ -8,6 +8,10 @@
     src: url('../fonts/Raleway-Italic-VariableFont_wght.ttf') format('truetype-variations');
 }
 
+:root{
+    --golden-ratio: 61.8%;
+}
+
 html {
     scroll-snap-type: y mandatory;
 }
@@ -37,10 +41,26 @@ body {
 .card {
     background-color: white;
     border-radius: 10px;
-    height: 75%;
-    width: 75%;
+    height: var(--golden-ratio);
+    width: var(--golden-ratio);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.link-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: var(--golden-ratio);
+}
+
+.icon-link{
+    transition: transform 0.3s ease-in-out;
+}
+.icon-link:hover {
+    transform: scale(1.2);
 }
