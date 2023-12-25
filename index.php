@@ -21,10 +21,10 @@
             <div class="card">
                 <h2>Vind mij op</h2>
                 <div class="link-buttons">
-                    <a href="https://www.linkedin.com/in/klaas-hielke-dijkgraaf-2a736479/">
+                    <a href="https://www.linkedin.com/in/klaas-hielke-dijkgraaf-2a736479/" target="_blank" title="Mijn LinkedIn-pagina">
                         <img class="icon-link" src="assets/icons/linkedin.svg" alt="LinkedIn icon" />
                     </a>
-                    <a href="https://github.com/klaashielke">
+                    <a href="https://github.com/klaashielke" target="_blank" title="Mijn GitHub-pagina">
                         <img class="icon-link" src="assets/icons/github.svg" alt="GitHub icon"/>
                     </a>
                 </div>
