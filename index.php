@@ -13,12 +13,17 @@
 
     <div class="grid-container">
         <div class="grid-item">
-            <h1>Welkom</h1>
+            <div class="card">
+                <h1>Welkom</h1>
+            </div>
         </div>
         <div class="grid-item">
-            <a href="https://www.linkedin.com/in/klaas-hielke-dijkgraaf-2a736479/">
-                <img style="background-color: white" src="assets/icons/linkedin.svg" alt="LinkedIn icon" />
-            </a>
+            <div class="card">
+                <h2>Vind mij op</h2>
+                <a href="https://www.linkedin.com/in/klaas-hielke-dijkgraaf-2a736479/">
+                    <img style="background-color: white" src="assets/icons/linkedin.svg" alt="LinkedIn icon" />
+                </a>
+            </div>
         </div>
     </div>
 
