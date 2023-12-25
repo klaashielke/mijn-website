@@ -8,19 +8,30 @@
     src: url('../fonts/Raleway-Italic-VariableFont_wght.ttf') format('truetype-variations');
 }
 
+html {
+    scroll-snap-type: y mandatory;
+}
+
 body {
     background-color: black;
     color: white;
     font-family: 'Raleway Regular';
 }
 
-.container {
+.grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 100vh);
+    place-items: center;
 }
 
-.item {
-    grid-column: 2 / 5;
-    place-self: center;
+.grid-item {
+    grid-column: 4 / 10;
+    height: 100%;
+    place-self: center stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    border: 1px dashed white;
 }
