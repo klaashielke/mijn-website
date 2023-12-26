@@ -11,7 +11,6 @@
 :root{
     --golden-ratio: 61.8%;
     --broken-white: rgb(255, 255, 245);
-
 }
 
 html {
@@ -69,3 +68,19 @@ body {
 .icon-link:hover {
     transform: scale(1.2);
 }
+
+.circular-frame {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 2px solid black; 
+  }
+  
+  .circular-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+}
+  

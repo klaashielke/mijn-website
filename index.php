@@ -14,7 +14,9 @@
     <div class="grid-container">
         <div class="grid-item">
             <div class="card">
-                <h1>Welkom</h1>
+                <div class="circular-frame">
+                    <img src="assets/images/profielfoto.jpg" alt="Mijn profielfoto"/>
+                </div>
             </div>
         </div>
         <div class="grid-item">
